@@ -1,0 +1,43 @@
+* {
+    background-color: lightgrey;
+}
+
+#heading {
+    text-align: center;
+}
+
+#main-content {
+    width: 80%;
+    margin: auto;
+    border: 2px black dashed;
+    max-width: 700px;
+}
+
+#todo-list {
+    width: 100%;
+    word-wrap: break-word; 
+}
+
+.todo-list-item {
+    list-style-type: decimal;
+    padding-bottom: 5px;
+}
+
+.todo {
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.check-btn {
+    float: right;
+    margin-right: 5%;
+}
+
+#create-btn {
+    cursor: pointer;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
